@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist/js",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/types/*.ts", "node_modules", ".idea"]
+}
+
+// what, What?
+
+// outDir = where the code should be compiled to
+// rootDir = where the code to be compiled is
+// include = what files should be compiled (usually all in src)
+// exclude = what files should not be compiled (usually node_modules)
